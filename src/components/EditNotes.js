@@ -5,6 +5,7 @@ import newline from 'react-newline-to-break';
 //moment is a JavaScript date library for parsing, validating, manipulating, and formatting dates. 
 
 //class component will switch between editing and deleting note rendering states
+
 class EditNotes extends React.Component {
     //We use a constructor to set the initial state of the class object
         constructor(props) {

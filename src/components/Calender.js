@@ -4,8 +4,12 @@ import 'react-calendar/dist/Calendar.css';
 
 //calender that will be shown on our main page
 export default function CalenderApp () {
-//main date functions to initialize our date state
+
+
+  //main date functions to initialize our date state
 const [dateState, setDateState] = useState(new Date())
+
+
 //changes date to current selection on calender
 const changeDate = (e) => {
     setDateState(e)
